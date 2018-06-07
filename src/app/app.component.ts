@@ -7,7 +7,6 @@ import { Task } from './task'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'app works!';
   arr: Task[] = [];
 
   ngOnInit() {
