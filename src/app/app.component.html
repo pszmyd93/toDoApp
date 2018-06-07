@@ -1,3 +1,5 @@
-<h1>
-  {{title}}
-</h1>
+<button (click) = "add()">Add</button>
+<button (click) = "remove()">Remove</button>
+<button (click) = "clear()">Clear</button>
+<app-task *ngFor="let task of arr; let i = index" [task] = "task" [nr] = "i + 1"></app-task>
+
